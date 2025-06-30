@@ -9,3 +9,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+* {
+font-family: "Montserrat";
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 2em;
+}
+button {
+    background-color: #0f4c5c !important;
+}
+
+button:hover{
+    background-color: #52796f !important;
+}
+
+li {
+    font-weight: 500;
+    background-color: #e9ecef !important;
+}
+.trash {
+  transition: opacity 0.3s ease;
+    background-color: #f099a0 !important;
+    border: 0;
+}
+
+.trash:hover {
+  opacity: 1;
+    background-color: #bb1833 !important;
+}
+
+body {
+background: linear-gradient(358deg, rgba(42, 123, 155, 1) 50%, rgba(87, 199, 133, 1) 100%);
+background-attachment: fixed;
+}
+
+#ToDoModal {
+    width: 25%;
+}
